@@ -13,3 +13,8 @@ utilizando allí donde corresponda try/catch o try/catch/finally:
 [SerieFibonacci](/practica/ejercicios1/SerieFibonacci.java)
 
 [SumaSerieNumerica](/practica/ejercicios1/SumaSerieNumerica.java)
+
+## Corrige los fallos de compilación
+Vamos a recuperar el código del ejercicio siguiente y vamos a añadir la gestión de errores como corresponda
+
+[ReescribeFrase](/practica/ejercicios1/ReescribeFrase.java)
