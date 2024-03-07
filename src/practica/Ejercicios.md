@@ -31,3 +31,32 @@ es decir, vamos a prevenir el error.
 Lo vamos a realizar:
 1. A través de una gestión THROW/TRY/CATCH: generamos un error y lo controlamos directamente.
 2. A través de una gestión THROW/THROWS: generamos un error y lo lanzamos.
+
+## UsaCasa
+
+Vamos a recuperar el ejercicio UsaCasa. Este ejercicio debía cumplir con dos condiciones:
+
+- La casa debía tener una edad, pero la edad no debería ser inferior a 0.
+- La superficie mínima de una casa eran 43.5 m2
+
+Vamos a gestionar estas dos condiciones en forma de excepción.
+
+## Termómetro
+
+Creemos una clase llamada 'Termómetro' con un atributo temperatura. Lanzar una excepción si se intenta fijar una temperatura con un valor menor a -192 o superior a 100.
+
+
+# EJERCICIOS EXCEPCIONES PERSONALIZADAS
+
+## UsaCasa
+
+Vamos a duplicar el ejercicio que hicimos en el throws para gestionar las dos condiciones con excepciones propias.
+
+## Termómetro
+
+Vamos a duplicar el ejercicio que hicimos en el throws para lanzar una excepción propia llamada
+'TemperaturaFueraRangoException'.
+
+## Sistema de acceso
+
+Ejercicio realizado en la UD5. Es un ejercicio muy interesante al que añadir mejoras con la gestión de errores.
