@@ -156,6 +156,7 @@ try {
 
 Podemos lanzar otra excepción o una excepción personalizada en lugar de la original. Este es el caso que vamos a ver 
 en el punto siguiente.
+Cuidado con esta opción, porque en realidad, también podriamos estar camuflando la primera excepción.
 
 ```java
 try {
@@ -172,14 +173,19 @@ excepción no verificada:
 
 ```java
 // Constructor
-public Cilindro(double radio, double altura) {
-	super(NOMBRE);
+public Cilindro(String nombre, double radio, double altura) throws IllegalArgumentException {
+	super(nombre);
 	this.base = new Circulo(radio);
-	this.altura = altura;
 
-	if (altura <= 0) {
-		throw new IllegalArgumentException(
-				String.format("Dimensiones no válidas: %f", altura));
-	}
+    if (altura <= 0) {
+      throw new IllegalArgumentException(
+              String.format("Dimensiones no válidas: %f", altura));
+    }
+    this.altura = altura;
 }
 ```
+
+Interesante ver también el ejemplo siguiente, donde se muestra un ejemplo de clase, que controla una restricción de 
+la clase, de forma completa, tanto al crear la instancia, como al intentar hacer un set de una instancia ya creada.
+
+[Demo](demo_setters/Casa.java)
