@@ -14,6 +14,7 @@ utilizando allí donde corresponda try/catch o try/catch/finally:
 
 [SumaSerieNumerica](/practica/ejercicios1/SumaSerieNumerica.java)
 
+
 ## Corrige los fallos de compilación
 Vamos a recuperar el código del ejercicio siguiente y vamos a añadir la gestión de errores como corresponda
 
@@ -22,6 +23,7 @@ Vamos a recuperar el código del ejercicio siguiente y vamos a añadir la gesti�
 ## División
 Vamos a desarrollar un programa básico que pregunte por dos operandos al usuario y realice la division entre ellos.
 Realizar una correcta gestión de errores usando el bloque completo try/catch/finally
+
 
 # EJERCICIOS THROW Y THROWS
 
@@ -60,3 +62,11 @@ Vamos a duplicar el ejercicio que hicimos en el throws para lanzar una excepció
 ## Sistema de acceso
 
 Ejercicio realizado en la UD5. Es un ejercicio muy interesante al que añadir mejoras con la gestión de errores.
+
+# EJERCICIOS LOGGER
+
+## Utiliza Logger
+
+En dos de los ejercicios anteriores y en Sistema de acceso, modifica el control de excepciones para que trabaje con
+logger en lugar de con la salida estándar del sistema. 
+En el logger, has lo necesario para que se imprima siempre la pila del error.
